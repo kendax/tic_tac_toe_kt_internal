@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id = "@+id/firstheading"
+        android:gravity="center"
+        android:textSize = "30sp"
+        android:layout_marginTop = "-10sp"
+        android:layout_width = "100dp"
+        android:layout_height = "100dp"
+        android:textColor="@color/beige"
+        android:text="Tic-Tac-Toe" />
+    <TextView
+        android:id = "@+id/secondheading"
+        android:gravity="center"
+        android:textSize = "30sp"
+        android:layout_marginTop = "0sp"
+        android:layout_width = "100dp"
+        android:layout_height = "100dp"
+        android:textColor="@color/beige"
+        android:text="Program logic implemented in Kotlin" />
+    <TableRow
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop = "80sp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/btnTicTac1"
+            android:background="@color/red"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/black"
+            android:layout_width="60dp"
+            android:textSize="26sp"
+            android:layout_height="60dp"
+            android:onClick="btnTicTac" />
+
+        <Button
+            android:id="@+id/btnTicTac2"
+            android:background="@color/red"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/black"
+            android:layout_width="60dp"
+            android:textSize="26sp"
+            android:layout_height="60dp"
+            android:onClick="btnTicTac" />
+
+        <Button
+            android:id="@+id/btnTicTac3"
+            android:background="@color/red"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="btnTicTac"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/btnTicTac4"
+            android:background="@color/red"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="btnTicTac"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnTicTac5"
+            android:background="@color/red"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="btnTicTac"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnTicTac6"
+            android:background="@color/red"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="btnTicTac"
+            android:text="" />
+    </TableRow>
+    <TableRow
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/btnTicTac7"
+            android:background="@color/red"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="btnTicTac"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnTicTac8"
+            android:background="@color/red"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="btnTicTac"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnTicTac9"
+            android:background="@color/red"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="btnTicTac"
+            android:text="" />
+    </TableRow>
+    <TextView
+        android:id = "@+id/playerturn"
+        android:gravity="center"
+        android:textSize = "30sp"
+        android:layout_marginBottom= "0sp"
+        android:layout_marginTop= "50sp"
+        android:layout_width = "100dp"
+        android:layout_height = "50dp"
+        android:textColor="@color/beige"
+        android:text="" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:gravity="center_horizontal"
+        android:onClick="btnRestart"
+        android:text="Restart Game"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</TableLayout>
